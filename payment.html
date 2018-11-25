@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>Payment</title>
+<style>
+.navbar {
+    font-size: 18px;
+	font-family: "Ariel", sans-serif;
+	color:#A9A9A9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #DC143C;
+}
+
+body {font-family: "Ariel", sans-serif;
+color:#000000;
+}
+
+input[type=text], input[type=password],input[type=email],select {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #FFFFFF;
+    border-color:#000000;
+	
+}
+input[type=number]{
+background: #FFFFFF;
+    border-color:#000000;}
+
+input[type=text]:focus, input[type=password],input[type=email]:focus {
+    background-color: #ddd;
+
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+button, #button {
+    background-color: #A52A2A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}
+
+button,#button:hover {
+    opacity:1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color:#A52A2A;
+}
+
+.cancelbtn, .signupbtn,#button {
+  
+  width: 20%;
+}
+
+.container {
+    padding: 16px;
+	
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.myform{
+align:center;
+}
+</style>
+
+</head>
+<body  >
+
+<ul class="navbar">
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+
+  <li><a href="home.html"><b>Logout<b></a></li>
+  <li><a href="askus2.html"><b>Enquire<b></a></li>
+  <li><a href="aboutus2.html"><b>About us<b></a></li>
+  <li><a href="packages.html"><b>Home<b></a></li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li><img src="seren.jpg" width="90%" height="10%"></li>
+</ul>
+<br><br><br><br><br>
+
+<form action="final.html" style="border:1px solid #ccc" onsubmit="func()">
+  <div class="container">
+	<center>
+    <h1 align="center" >Guest Details </h1>
+    <hr>
+    <label for="firstname" ><b>First Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+    <input type="text" name="firstname" placeholder="First name" required><br><br>
+
+    <label for="lastname" align="center"><b>Lastname&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+    <input type="text" name="lastname" placeholder="Last name" required><br><br>
+
+    <label for="noofadults"><b>Number of adults&nbsp&nbsp</b></label>
+    <input id="x" type="number" name="noofadults" min="1" max="30" required>&nbsp&nbsp&nbsp&nbsp
+    
+	<label for="noofchildren"><b>Number of children&nbsp&nbsp</b></label>
+    <input id="y" type="number" name="noofchildren" min="1" max="30" required><br><br><br>
+ 
+    <label for="phonenumber"><b>Phone Number&nbsp&nbsp</b></label>
+    <input type="text" name="phonenumber" placeholder="Phone number" required><br><br>
+    
+    <label for="email"><b>Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+    <input type="email" name="email" placeholder="Email id" required><br><br>
+    
+	<label for="address"><b>Billing Address&nbsp</b></label>
+    <input type="text" name="address" placeholder="Billing address" required><br><br>
+
+	
+	<label for="postcode"><b>Post Code&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+    <input type="text" name="postcode" placeholder="postcode" required><br><br>
+	
+	
+	<label for="country"><b>Country&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></label>
+    <select>
+  <option value="volvo">Afghanistan</option>
+  <option value="saab">Albania</option>
+  <option value="mercedes">Algeria</option>
+  <option value="audi">Andorra</option>
+  <option value="saab">Angola</option>
+  <option value="mercedes">Antigua and Barbuda</option>
+  <option value="audi">Argentina</option><option value="saab">Albania</option>
+  <option value="mercedes">Antarctica</option>
+  <option value="audi">Armenia</option>
+    <option value="volvo">Bahrain</option>
+  <option value="saab">Bangladesh</option>
+  <option value="mercedes">Barbados</option>
+  <option value="audi">Belgium</option>
+  <option value="saab">Belize</option>
+  <option value="mercedes">Bhutan</option>
+  <option value="audi">Bolivia</option><option value="saab">Albania</option>
+  <option value="mercedes">Botswana</option>
+  <option value="audi">Bulgaria</option>
+  <option value="volvo">Cambodia</option>
+  <option value="saab">China</option>
+  <option value="mercedes">Cuba</option>
+  <option value="audi">Colombia</option>
+  <option value="saab">Cameroon</option>
+  <option value="mercedes">Croatia</option>
+  <option value="audi">Cuba</option><option value="saab">Albania</option>
+  <option value="mercedes">Comoros</option>
+  <option value="audi">Canada</option>
+<option value="volvo">Denmark</option>
+  <option value="saab">Dominica</option>
+  <option value="mercedes">Egypt</option>
+  <option value="audi">Andorra</option>
+  <option value="saab">Angola</option>
+  <option value="mercedes">Antigua and Barbuda</option>
+  <option value="audi">Argentina</option><option value="saab">Albania</option>
+  <option value="mercedes">Antarctica</option>
+  <option value="audi">Armenia</option>
+    <option value="volvo">Bahrain</option>
+  <option value="saab">Bangladesh</option>
+</select><br><br>
+	
+	
+	<div class="clearfix">
+	
+      <button type="button" class="cancelbtn">Cancel</button>
+	 
+      <input id="button" type="submit" name="submit"></input>
+    </div>
+	
+  </div>
+  </center>
+  </div>
+
+</form>
+<br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br>
+
+<img src="services.jpg" width="100%" height="90%">
+</div> 
+<footer background-color="#FFFFFF">
+<hr>
+<pre>
+<p >             					         <b>Download our App on<b>                            
+							<img src="playstore.jpg">
+							    <b>Follow us on<b>		   
+						<img src="socialmedia.jpg"></p></pre>
+</hr>
+</footer>
+
+<script>
+/*document.getElementById("butt").addEventListener("click",function(){
+		var my=document.getElementById("p1");
+		var first=window.localStorage.getItem("name1")
+		alert(first);
+		});*/
+</script>
+</body>
+</html>

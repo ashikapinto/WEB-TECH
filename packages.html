@@ -1,0 +1,156 @@
+<?php
+   include('session.php');
+?>
+<html>
+<head><title>Packages</title>
+<link rel="icon" href="pgicon.jpg" type="image/jpg" sizes="16x16">
+<link rel="icon" href="pgicon.jpg" type="image/jpg" sizes="16x16">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <style>
+body {
+    font-size: 18px;
+	font-family: "Ariel", sans-serif;
+	color:#A9A9A9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFFFFF;
+}
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+
+<body background="world1.jpg">
+<ul>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+
+  <li><a href="logout.php"><b>Logout<b></a></li>
+</ul>
+  <header>
+      <div class="row">
+        <div class="column">
+        <a href="easteu.html"> <div class="hvrbox">
+	<img src="russia1.jpg" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">East Europe</div>
+	</div>
+	
+</div></a>
+  </div>
+  <div class="column">
+    <a href ="we.html" ><div class="hvrbox">
+	<img src="paris_hd.jpg" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">West Europe</div>
+  </div></div></div>
+  <div class="column">
+   <a href="asia.html"><div class="hvrbox">
+	<img src="taj.jpg" height=40% width=100% class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">Asia</div>
+  </div>
+</div></div>
+</div>
+<div class="row">
+  <div class="column">
+    <a href="africa.html"><div class="hvrbox">
+	<img src="africa0.jpg" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">Africa</div>
+  </div>
+  </div>
+  </div>
+  <div class="column">
+    <a href="usa.html"><div class="hvrbox">
+	<img src="america0.jpg" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">America</div>
+  </div>
+  </div>
+  </div>
+  <div class="column">
+    <a href="australia.html"><div class="hvrbox">
+	<img src="aus0.jpg" class="hvrbox-layer_bottom">
+	<div class="hvrbox-layer_top">
+		<div class="hvrbox-text">Australia</div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+</html>
