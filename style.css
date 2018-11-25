@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.center {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+
+}
+.container{
+	position: relative;
+	color: white;
+}
+ 
+   
+img: {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.background {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}

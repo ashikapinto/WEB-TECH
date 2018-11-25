@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="icon" href="pgicon.jpg" type="image/jpg" sizes="16x16">
+<style> 
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+.starts{
+font-family: Poppins-Regular;
+	font-size: 22px;
+	line-height: 1.7;
+	}
+body{
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	color:#000000;
+	}
+img {
+    width: 100px;
+    height: 100px;
+    -webkit-transition:  width 2s, height 4s;
+    transition:  width 1.5s;
+}
+
+img:hover {
+    width: 200px;
+    height: 200px;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 50px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.background {
+    background: url("another1.jpg");
+	background-repeat: no-repeat;
+  background-size: cover;
+    border: 2px solid black;
+}
+.container{
+ padding-left:355px;
+ }
+
+div.transbox {
+    margin: 70px;
+	align: center;
+	
+	width: 800px;
+    background-color: transparent;
+    border: 1px solid black;
+    opacity: 1.0;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+ 	<div class="transbox">
+<div class="row">
+    <div class="column">
+<h1>London</h1>
+<img src="london0.png"> </div>
+<div class="column">
+    <h1> Paris</h1>
+    <a href="paris.html"><img src="louvre.png"></div>
+<div class="column">
+    <h1>Germany</h1>
+    <img src="germany0.jpg"></div>
+	
+<div class="column">
+    <h1>Switzerland</h1>
+    <img src="swiss0.jpg"></div>
+<div class="column">
+    <h1>Italy</h1>
+    <img src="rome0.jpg"></div>
+</div>
+</div></div>
+</body>
+</html>
+
+
+
+
